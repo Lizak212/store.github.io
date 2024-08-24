@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tooltip {
+      background-color: white; 
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip .tooltip-text {
+      visibility: hidden;
+    }
+
+    .tooltip:hover .tooltip-text {
+      visibility: visible;
+    }
+    
+    
+  </style>
+</head>
+
+<body>
+
+  <h1>Grocery Store</h1>
+
+  <div class = "tooltip">
+    <img src = "Orange.webp" width = 100px height = 100px>
+
+    <p class = "tooltip-text">
+      Product: Orange 
+      Quanity: 5 Units
+      Price: $4.00
+    </p>
+  </div>
+
+  <div class = "tooltip">
+    <img src = "Strawberry_candy.webp" width = 100px height = 100px>
+
+    <p class = "tooltip-text">
+      Product: Strawberry Candy
+      Quanity: 1 Unit
+      Price: $0.25
+    </p>
+  </div>
+
+  <div class = "tooltip">
+    <img src = "berry_jam.jpg" width = 100px height = 100px>
+
+    <p class = "tooltip-text">
+      Product: Berry Jam
+      Quanity: 1 Unit
+      Price: $3.45
+  </div>
+
+  <div class = "tooltip">
+    <img src = "bread.jpg" width = 100px height = 100px>
+
+    <p class = "tooltip-text">
+      Product: Bread
+      Quanity: 1 Unit
+      Price: $2.00
+  </div>
+</body>
+
+</html>
